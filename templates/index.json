@@ -1,61 +1,57 @@
-﻿{
+{
   "sections": {
-    "hero": {
+    "hero_banner_main": {
       "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/hero_img.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "text_alignment": "center",
-        "color_scheme": "scheme-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      },
       "blocks": {
-        "heading": {
+        "heading_16f94a01": {
           "type": "heading",
           "settings": {
             "heading": "Sistema de Soporte Lumbar Pro-360",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "text_4e8b3c92": {
           "type": "text",
           "settings": {
             "text": "Descompresión y Estabilidad Vertebral Inmediata. Diseñada para quienes exigen máximo rendimiento.",
             "text_style": "body"
           }
         },
-        "buttons": {
+        "buttons_7d5a2f83": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Obtener Alivio Inmediato",
             "button_link_1": "shopify://products/soporte-lumbar-pro-360",
-            "button_style_secondary_1": false
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "buttons"
-      ]
-    },
-    "intro_text": {
-      "type": "rich-text",
+        "heading_16f94a01",
+        "text_4e8b3c92",
+        "buttons_7d5a2f83"
+      ],
       "settings": {
+        "image": "shopify://shop_images/hero_img.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52,
-        "desktop_content_position": "center",
-        "content_alignment": "center"
-      },
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_intro": {
+      "type": "rich-text",
       "blocks": {
-        "text_block": {
+        "text_intro_a3f8d1": {
           "type": "text",
           "settings": {
             "text": "<p><strong>No es solo una faja; es ingeniería.</strong><br>El Sistema Pro-360 utiliza una estructura de soporte activo para liberar la presión en los discos intervertebrales, permitiéndote moverte, trabajar y entrenar sin dolor.</p>"
@@ -63,71 +59,81 @@
         }
       },
       "block_order": [
-        "text_block"
-      ]
-    },
-    "features_grid": {
-      "type": "multicolumn",
+        "text_intro_a3f8d1"
+      ],
       "settings": {
-        "title": "¿Por qué elegir el Sistema Pro-360?",
-        "heading_size": "h1",
-        "image_width": "none",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      },
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_features": {
+      "type": "multicolumn",
       "blocks": {
-        "feat_1": {
+        "column_feat1_9c4e2b": {
           "type": "column",
           "settings": {
             "title": "Soporte de 6 Ejes",
-            "text": "<p>6 varillas reforzadas que imitan la estabilidad de la columna, protegiendo contra movimientos bruscos.</p>"
+            "text": "<p>6 varillas reforzadas que imitan la estabilidad de la columna, protegiendo contra movimientos bruscos.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "feat_2": {
+        "column_feat2_7a8d3f": {
           "type": "column",
           "settings": {
             "title": "Compresión 360°",
-            "text": "<p>Diseño de envoltura total que distribuye la presión de manera uniforme alrededor de todo el torso.</p>"
+            "text": "<p>Diseño de envoltura total que distribuye la presión de manera uniforme alrededor de todo el torso.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "feat_3": {
+        "column_feat3_5b9e1c": {
           "type": "column",
           "settings": {
             "title": "Tejido Transpirable",
-            "text": "<p>Fibra de poliéster ultra-ligera (150g) que permite el flujo de aire y elimina el calor excesivo.</p>"
+            "text": "<p>Fibra de poliéster ultra-ligera (150g) que permite el flujo de aire y elimina el calor excesivo.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "feat_1",
-        "feat_2",
-        "feat_3"
-      ]
-    },
-    "technical_specs": {
-      "type": "rich-text",
+        "column_feat1_9c4e2b",
+        "column_feat2_7a8d3f",
+        "column_feat3_5b9e1c"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "desktop_content_position": "left",
-        "content_alignment": "left"
-      },
+        "title": "¿Por qué elegir el Sistema Pro-360?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_specs": {
+      "type": "rich-text",
       "blocks": {
-        "heading": {
+        "heading_specs_d4c7b9": {
           "type": "heading",
           "settings": {
             "heading": "Especificaciones de Ingeniería",
             "heading_size": "h2"
           }
         },
-        "specs_list": {
+        "text_specs_e8f3a2": {
           "type": "text",
           "settings": {
             "text": "<ul><li><strong>Color:</strong> Negro Mate (Discreto).</li><li><strong>Material:</strong> Fibra de poliéster reforzada.</li><li><strong>Peso:</strong> 150g (Ligereza extrema).</li><li><strong>Tallas:</strong> M / L (Ajuste universal).</li><li><strong>Empaque:</strong> Incluye 1 unidad.</li></ul>"
@@ -135,97 +141,127 @@
         }
       },
       "block_order": [
-        "heading",
-        "specs_list"
-      ]
-    },
-    "testimonials": {
-      "type": "ds-testimonials",
+        "heading_specs_d4c7b9",
+        "text_specs_e8f3a2"
+      ],
       "settings": {
-        "title": "Ideal para:",
-        "heading_size": "h1",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      },
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "testimonials_targets": {
+      "type": "multicolumn",
       "blocks": {
-        "target_1": {
+        "target_prof_c9d2e5": {
           "type": "column",
           "settings": {
             "title": "Profesionales",
             "text": "<p>Para mantener la postura correcta tras horas frente al monitor.</p>",
-            "author": "Oficina"
+            "link_label": "",
+            "link": ""
           }
         },
-        "target_2": {
+        "target_cond_f3a8b1": {
           "type": "column",
           "settings": {
             "title": "Conductores",
             "text": "<p>Protección vital durante largas jornadas de manejo o carga.</p>",
-            "author": "Logística"
+            "link_label": "",
+            "link": ""
           }
         },
-        "target_3": {
+        "target_fit_a7e4c6": {
           "type": "column",
           "settings": {
             "title": "Fitness",
             "text": "<p>Soporte extra en levantamientos y entrenamientos de alta intensidad.</p>",
-            "author": "Deporte"
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "target_1",
-        "target_2",
-        "target_3"
-      ]
-    },
-    "cta_product": {
-      "type": "featured-product",
+        "target_prof_c9d2e5",
+        "target_cond_f3a8b1",
+        "target_fit_a7e4c6"
+      ],
       "settings": {
-        "product": "soporte-lumbar-pro-360",
-        "color_scheme": "scheme-1",
-        "media_position": "left"
-      },
+        "title": "Ideal para:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_cta": {
+      "type": "featured-product",
       "blocks": {
-        "title": {
+        "title_b8d9e2": {
           "type": "title",
           "settings": {
             "heading_size": "h2"
           }
         },
-        "price": {
+        "price_f4c6a1": {
           "type": "price",
           "settings": {}
         },
-        "variant": {
+        "variant_picker_e7b3d5": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
-        "buy": {
+        "buy_buttons_a9f2c8": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
           }
         }
       },
       "block_order": [
-        "title",
-        "price",
-        "variant",
-        "buy"
-      ]
+        "title_b8d9e2",
+        "price_f4c6a1",
+        "variant_picker_e7b3d5",
+        "buy_buttons_a9f2c8"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "hero",
-    "intro_text",
-    "features_grid",
-    "technical_specs",
-    "testimonials",
-    "cta_product"
+    "hero_banner_main",
+    "rich_text_intro",
+    "multicolumn_features",
+    "rich_text_specs",
+    "testimonials_targets",
+    "featured_product_cta"
   ]
 }
